@@ -306,3 +306,8 @@ li.colorCircle {
     vertical-align: middle;
     border-radius: 5px;
   }
+.bio{
+    word-spacing: 1.3px;
+    line-height: 1.5;
+
+}
