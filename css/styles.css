@@ -445,11 +445,13 @@ justify-content: right;
   }
 
   @media (max-width: 900px) {
-    /* .grid-container { grid-template-columns: auto; } */
+    .grid-container { grid-template-columns: auto; }
     .grid-container-2 { grid-template-columns: auto; }
     .grid-container-3 { grid-template-columns: auto; }
     .grid-container-4 { grid-template-columns: auto; }
     .grid-container-ux { grid-template-columns: auto; }
+    .grid-container-gif { grid-template-columns: auto; }
+
     .grid-container-1 img {
       width: 100%;
     }
