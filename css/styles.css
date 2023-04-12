@@ -266,14 +266,6 @@ li.colorCircle {
     margin-bottom: 75px;
 }
 
-/* .container img {
-  width: 100%;
-background-size: cover;
-background-repeat: no-repeat;
-margin: auto;
-background-position: center center;
-background-attachment: fixed;
-} */
 /* Navigation Bar */
 
 #navigation-container {
@@ -372,8 +364,8 @@ background-attachment: fixed;
 
 
   .project-description{
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
 justify-content: right;
   }
   .project-description h1{
@@ -390,6 +382,12 @@ justify-content: right;
     font-size: 16px;
     margin-bottom: 15px;
   }
+  /* .project-description h3{
+    font-family: SF-Pro-Text-Bold, sans-serif;
+    font-size: 16px;
+    margin-bottom: 15px;
+    line-height: 150%;
+  } */
   .project-description h5{
     font-family: SF-Pro-Text-Regular, sans-serif;
     font-size: 16px;
@@ -405,9 +403,82 @@ justify-content: right;
   }
   .grid-container {
     display: grid;
-    grid-template-columns: 270px 170px auto auto;
+    grid-template-columns: auto auto auto auto;
     gap: 2px;
     padding: 10px;
+  }
+  .grid-container-2{
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 50% auto;
+    gap: 2px;
+    padding: 10px;
+  }
+  .grid-container-gif{
+
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 2px;
+    padding: 10px;
+  }
+  .grid-container-ux{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 2px;
+    padding: 10px;
+  }
+
+  @media (max-width: 900px) {
+    /* .grid-container { grid-template-columns: auto; } */
+    .grid-container-2 { grid-template-columns: auto; }
+    .grid-container-3 { grid-template-columns: auto; }
+    .grid-container-4 { grid-template-columns: auto; }
+    .grid-container-ux { grid-template-columns: auto; }
+    .grid-container-1 img {
+      width: 100%;
+    }
+    .grid-container-2 img {
+      width: 100%;
+    }
+    .grid-container-gif img {
+      width: 80%;
+    }
+  }
+@media (min-width: 900px){
+  .grid-container-1 img {
+    width: 100%;
+  }
+  .grid-container-2 img {
+    width: 100%;
+  }
+  .grid-container-gif img {
+    width: 80%;
+  }
+}
+  
+  .centerText{
+margin-top: 50px;
+  }
+  .grid-container-1{
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: auto;
+    gap: 2px;
+    padding: 10px;
+  }
+  .grid-container-1 h1{
+    text-align: center;
+  }
+  .grid-container-3{
+    justify-content: center;
+    display: grid;
+    grid-template-columns: auto 20px auto;
+    gap: 2px;
+    padding: 10px;
+  }
+  .grid-container-solution div{
+    padding: 20px;
   }
     /* Flexbox */
 
